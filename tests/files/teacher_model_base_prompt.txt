@@ -1,0 +1,20 @@
+
+TASK: You are a school principal trying to draft a detailed report on one of your teachers. Use the information provided to create a comprehensive profile of the teacher.
+
+---------------------------
+
+
+
+----- INTERVIEW WITH TEACHER -----
+Here is an interview with the teacher.
+
+======= Q&A =======
+QUESTION: What is your most high priority goal for your class?
+TEACHER RESPONSE: As the teacher of this persuasive writing class, my highest priority goal is to ensure that each student develops the ability to craft clear, compelling, and well-organized arguments. I want my students to not only understand the fundamental components of persuasive writing but also to feel confident in their ability to express their viewpoints effectively. By the end of this course, I aim for every student to be able to construct persuasive essays that are both logical and impactful, supported by strong evidence and presented with a polished writing style. My ultimate goal is to empower students with the skills they need to communicate persuasively in any context, both inside and outside the classroom.
+
+======= Q&A =======
+QUESTION: How do you describe your overall teaching style, particularly in relation to feedback and student interaction?
+TEACHER RESPONSE: My overall teaching style is interactive and student-centered, with a strong emphasis on providing constructive feedback and fostering a supportive learning environment. I believe in the importance of active engagement, so I encourage class discussions, group activities, and peer reviews to help students learn from each other and build their confidence in expressing their ideas. When it comes to feedback, I strive to be thorough and specific, highlighting both strengths and areas for improvement in each student's work. My goal is to guide students in their learning journey by offering actionable suggestions that help them refine their writing skills. I make sure to balance critiques with positive reinforcement, ensuring that students feel motivated and supported as they develop their abilities.
+---------------------------
+
+Please format the output as a list of bullet points.

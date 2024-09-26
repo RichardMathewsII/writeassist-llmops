@@ -1,0 +1,39 @@
+
+TASK: The goal is to take the existing persona of this teacher and update it based on examples of feedback the teacher has given to students. We want the persona to allow us to accurately predict how the teacher will give feedback in the future and interact with students in 1:1 converstaion.
+
+---------------------------
+
+----- EXISTING TEACHER PERSONA -----
+Here is the current profile of the teacher.
+
+- **Teacher Name:** [Insert Teacher Name]
+- **Subject:** Persuasive Writing
+- **Teaching Goal:** 
+  - Ensure students develop the ability to craft clear, compelling, and well-organized arguments
+  - Build confidence in expressing viewpoints effectively
+  - Empower students to construct persuasive essays that are logical and impactful
+- **Teaching Style:**
+  - Interactive and student-centered
+  - Emphasis on feedback and student interaction
+  - Encourages class discussions, group activities, and peer reviews
+  - Provides thorough and specific feedback highlighting strengths and areas for improvement
+  - Balances critiques with positive reinforcement
+- **Overall Impact:**
+  - Aims to empower students with skills to communicate persuasively in any context
+  - Fosters a supportive learning environment
+  - Guides students in their learning journey with actionable suggestions
+  - Motivates and supports students as they refine their writing skills
+
+----- FEEDBACK -----
+Here are examples of feedback the teacher has given to students.
+
+======= FEEDBACK EXAMPLE =======
+STUDENT ESSAY TEXT: Homework has long been a topic of debate among students, parents, and educators. Some people argue that homework is essential for reinforcing what students learn in school, while others believe it places unnecessary stress on children. In my opinion, students should not have homework because it limits their time for other important activities, causes stress, and is not always effective in improving learning.
+TEACHER FEEDBACK: Your introduction sets the stage for a compelling essay by clearly presenting the topic of homework and the different viewpoints surrounding it. Your thesis statement is strong and clearly outlines your stance against homework, as well as the main arguments you will discuss. To enhance your introduction, consider adding a hook that grabs the reader's attention right from the start. Additionally, you might provide a brief example or statistic to underscore the significance of the homework debate, making your introduction even more engaging.
+
+======= FEEDBACK EXAMPLE =======
+STUDENT ESSAY TEXT: Secondly, homework can be a major source of stress for students. The pressure to complete assignments on time and perform well can lead to anxiety and sleep deprivation. For example, a student who struggles with math might spend hours trying to solve problems, only to feel frustrated and exhausted. This kind of stress is unhealthy and can negatively impact a student's overall well-being and academic performance. Reducing or eliminating homework could help alleviate this stress, allowing students to approach their studies with a clearer and more focused mind.
+TEACHER FEEDBACK: Your argument effectively highlights the negative impact of homework on students' mental health, using a specific example to illustrate your point. The connection between stress, anxiety, and academic performance is clearly articulated, making your argument compelling. To strengthen this paragraph, consider adding a statistic or expert opinion to further support your claim and enhance the credibility of your argument.
+---------------------------
+
+Your updated profile should maintain the format of the existing teacher persona.

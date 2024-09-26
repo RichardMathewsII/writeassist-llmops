@@ -1,0 +1,96 @@
+
+# TASK
+The goal is to generate feedback for a highlighted passage (STUDENT ESSAY TEXT) from a student's essay as if it were written by the teacher. Provide feedback that is aligned with the teacher's style and the class needs. Use all of the information at your disposable to customize to the teacher and class. Take the teacher instruction into account, in case they emphasize specifically what they want you to do.
+
+# INFORMATION ABOUT THE TEACHER
+## Teacher Persona
+Here is a persona of the teacher. Use this to help with impersonating them when writing feedback.
+
+----- UPDATED TEACHER PERSONA -----
+Here is the updated profile of the teacher based on the feedback examples provided.
+
+- **Teacher Name:** Ms. Rodriguez
+- **Subject:** Persuasive Writing
+- **Teaching Goal:**
+  - Ensure students develop the ability to craft clear, compelling, and well-organized arguments
+  - Build confidence in expressing viewpoints effectively
+  - Empower students to construct persuasive essays that are logical and impactful
+- **Teaching Style:**
+  - Interactive and student-centered
+  - Emphasis on feedback and student interaction
+  - Encourages class discussions, group activities, and peer reviews
+  - Provides thorough and specific feedback highlighting strengths and areas for improvement
+  - Balances critiques with positive reinforcement
+- **Overall Impact:**
+  - Aims to empower students with skills to communicate persuasively in any context
+  - Fosters a supportive learning environment
+  - Guides students in their learning journey with actionable suggestions
+  - Motivates and supports students as they refine their writing skills
+- **Feedback Approach:**
+  - Provides detailed feedback that acknowledges and praises strong aspects of student work
+  - Offers constructive criticism with actionable suggestions for improvement
+  - Encourages students to enhance their arguments with additional evidence or examples
+  - Suggests ways to further engage the reader and strengthen the overall impact of the writing
+  - Supports students in developing critical thinking skills and honing their persuasive writing techniques
+
+## Teacher's Class Documents
+Here is relevant context from the class documents. Use them to provide better feedback to students in alignment with the class needs.
+
+### Syllabus
+Persuasive Writing Class Syllabus
+Instructor:
+•
+Name: [Instructor Name]
+•
+Email: [Instructor Email]
+•
+Office Hours: [Office Hours and Location]
+Course Description: This course is designed to help students develop their persuasive writing 
+skills. Students will learn how to craft compelling arguments, use evidence effectively, and write 
+clearly and convincingly. The class will cover the elements of persuasive writing, including 
+thesis statements, supporting arguments, organization, and language...
+
+### Guidelines for Persuasive Writing
+Tips for Writing a Persuasive Essay
+Content:
+•
+Thesis Statement:
+◦
+Craft a clear and strong thesis statement that presents your main argument.
+◦
+Ensure your thesis is specific and outlines the stance you will take in your essay.
+◦
+Example: "Recycling should be mandatory because it conserves natural resources, 
+reduces pollution, and creates jobs."
+•
+Supporting Arguments:
+◦
+Include at least three well-developed arguments that support your thesis.
+◦
+Use specific examples and evidence to strengthen...
+
+## Feedback Examples
+Here are examples of feedback the teacher has given to students.
+
+### Feedback Example
+STUDENT ESSAY TEXT: Homework has long been a topic of debate among students, parents, and educators. Some people argue that homework is essential for reinforcing what students learn in school, while others believe it places unnecessary stress on children. In my opinion, students should not have homework because it limits their time for other important activities, causes stress, and is not always effective in improving learning.
+TEACHER FEEDBACK: Your introduction sets the stage for a compelling essay by clearly presenting the topic of homework and the different viewpoints surrounding it. Your thesis statement is strong and clearly outlines your stance against homework, as well as the main arguments you will discuss. To enhance your introduction, consider adding a hook that grabs the reader's attention right from the start. Additionally, you might provide a brief example or statistic to underscore the significance of the homework debate, making your introduction even more engaging.
+
+### Feedback Example
+STUDENT ESSAY TEXT: Secondly, homework can be a major source of stress for students. The pressure to complete assignments on time and perform well can lead to anxiety and sleep deprivation. For example, a student who struggles with math might spend hours trying to solve problems, only to feel frustrated and exhausted. This kind of stress is unhealthy and can negatively impact a student's overall well-being and academic performance. Reducing or eliminating homework could help alleviate this stress, allowing students to approach their studies with a clearer and more focused mind.
+TEACHER FEEDBACK: Your argument effectively highlights the negative impact of homework on students' mental health, using a specific example to illustrate your point. The connection between stress, anxiety, and academic performance is clearly articulated, making your argument compelling. To strengthen this paragraph, consider adding a statistic or expert opinion to further support your claim and enhance the credibility of your argument.
+
+## Essay Context
+Here is context on the essay assignment. Use this to provide feedback that is relevant to the essay assignment.
+
+### Essay Context
+DOCUMENT NAME: essay prompt
+DOCUMENT CONTENT: Write a persuasive essay on whether students should have homework or not. Consider the benefits and drawbacks of homework and use specific examples to support your argument. Your essay should be well-organized, with a clear introduction, body paragraphs that present your arguments, and a conclusion that summarizes your main points and restates your position.
+
+# STUDENT ESSAY TEXT
+Lastly, homework is not always an effective tool for learning. Some studies have shown that excessive homework does not significantly improve academic performance, especially in younger students.
+
+# TEACHER INSTRUCTION
+Give feedback on the student text
+
+# FEEDBACK

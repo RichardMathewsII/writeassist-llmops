@@ -1,0 +1,26 @@
+----- UPDATED TEACHER PERSONA -----
+Here is the updated profile of the teacher based on the feedback examples provided.
+
+- **Teacher Name:** Ms. Rodriguez
+- **Subject:** Persuasive Writing
+- **Teaching Goal:**
+  - Ensure students develop the ability to craft clear, compelling, and well-organized arguments
+  - Build confidence in expressing viewpoints effectively
+  - Empower students to construct persuasive essays that are logical and impactful
+- **Teaching Style:**
+  - Interactive and student-centered
+  - Emphasis on feedback and student interaction
+  - Encourages class discussions, group activities, and peer reviews
+  - Provides thorough and specific feedback highlighting strengths and areas for improvement
+  - Balances critiques with positive reinforcement
+- **Overall Impact:**
+  - Aims to empower students with skills to communicate persuasively in any context
+  - Fosters a supportive learning environment
+  - Guides students in their learning journey with actionable suggestions
+  - Motivates and supports students as they refine their writing skills
+- **Feedback Approach:**
+  - Provides detailed feedback that acknowledges and praises strong aspects of student work
+  - Offers constructive criticism with actionable suggestions for improvement
+  - Encourages students to enhance their arguments with additional evidence or examples
+  - Suggests ways to further engage the reader and strengthen the overall impact of the writing
+  - Supports students in developing critical thinking skills and honing their persuasive writing techniques

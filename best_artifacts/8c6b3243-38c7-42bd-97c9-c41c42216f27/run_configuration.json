@@ -1,0 +1,114 @@
+{
+    "execution": {},
+    "loggers": {},
+    "ops": {
+        "chunked_class_documents": {
+            "config": {
+                "chunk_size": 500,
+                "overlap": 100,
+                "strategy": "recursive_text_splitting"
+            }
+        },
+        "chunked_feedback": {
+            "config": {
+                "chunk_size": 500,
+                "overlap": 100,
+                "strategy": "recursive_text_splitting"
+            }
+        },
+        "class_context_retrieval": {
+            "config": {
+                "enabled": false,
+                "similarity_score": "cosine",
+                "threshold": 0.6,
+                "top_k": 3
+            }
+        },
+        "feedback_generation_prompt": {
+            "config": {
+                "include_essay_context": true,
+                "include_teacher_model": true,
+                "instruction_style": "DESCRIBE",
+                "max_class_context_tokens": 1500,
+                "max_essay_context_tokens": 5000,
+                "max_feedback_example_tokens": 2000,
+                "version": 1
+            }
+        },
+        "feedback_retrieval": {
+            "config": {
+                "enabled": true,
+                "similarity_score": "cosine",
+                "threshold": 0.6,
+                "top_k": 3
+            }
+        },
+        "teacher_model_base": {
+            "config": {
+                "include_class_context": false,
+                "include_onboarding": true,
+                "instruction_style": "DESCRIBE",
+                "max_class_context_tokens": 2000,
+                "output_format": "BULLET_POINTS",
+                "summarize_class_context": false,
+                "version": 1
+            }
+        },
+        "teacher_model_update_prompt": {
+            "config": {
+                "enabled": false,
+                "instruction_style": "DESCRIBE",
+                "max_examples": 3,
+                "max_feedback_example_tokens": 1500,
+                "version": 1
+            }
+        }
+    },
+    "resources": {
+        "bucket": {
+            "config": {
+                "dataset": "simulation",
+                "source": "local"
+            }
+        },
+        "embedding_model": {
+            "config": {
+                "cost_estimation_mode": false,
+                "model_name": "text-embedding-ada-002",
+                "region_name": "us-east-1"
+            }
+        },
+        "embedding_preprocessor": {
+            "config": {
+                "include_essay_context": false,
+                "include_essay_text": true,
+                "include_teacher_feedback": false,
+                "include_teacher_instruction": false
+            }
+        },
+        "llm": {
+            "config": {
+                "cost_estimation_mode": false,
+                "max_tokens": 600,
+                "model_name": "gpt-4o",
+                "temperature": 0.8,
+                "top_p": 1.0
+            }
+        },
+        "tracking_client": {
+            "config": {
+                "enabled": true,
+                "experiment_name": "simulation",
+                "mlflow_tracking": true,
+                "mlflow_tracking_uri": "http://127.0.0.1:5000",
+                "run_name": "DYNAMIC_TEACHER_MODEL_ABLATION"
+            }
+        },
+        "vector_store": {
+            "config": {
+                "name": "parquet",
+                "source": "local"
+            }
+        }
+    }
+}
