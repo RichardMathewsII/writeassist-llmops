@@ -1,8 +1,25 @@
 from typing import Callable, Optional
-from experiment.prompt import PromptLayerBuilder, TeacherModelBaseInstructionStyles, TeacherModelOutputFormats, TeacherModelUpdateInstructionStyles, FeedbackGenerationInstructionStyles, StudentConferencingInstructionStyles
-from langchain_core.prompts import PromptTemplate
+from experiment.prompt import (
+    PromptLayerBuilder,
+    TeacherModelBaseInstructionStyles,
+    TeacherModelOutputFormats,
+    TeacherModelUpdateInstructionStyles,
+    FeedbackGenerationInstructionStyles,
+    StudentConferencingInstructionStyles,
+)
+
+try:  # pragma: no cover - exercised indirectly in tests
+    from langchain_core.prompts import PromptTemplate
+except ModuleNotFoundError:  # Fallback used when langchain_core isn't available
+    from ._fallback_prompts import PromptTemplate
+
 import requests
-from dotenv import load_dotenv; load_dotenv()
+try:  # pragma: no cover - dotenv is optional in tests
+    from dotenv import load_dotenv
+except ModuleNotFoundError:  # Provide a no-op fallback when python-dotenv isn't installed
+    def load_dotenv() -> None:  # type: ignore
+        return None
+load_dotenv()
 import os
 from experiment.utils import num_tokens_for_llm, trim_document_content
 
@@ -39,6 +56,7 @@ class TeacherModelBaseDirector():
             output_format: str,
             llm: Callable = call_gpt,
             max_class_context_tokens: int = 500,
+            llm_augmented: bool | None = None,
             ):
         self.version = f"V{version}"
         self.include_class_context = include_class_context
@@ -48,6 +66,10 @@ class TeacherModelBaseDirector():
         self.output_format = output_format
         self.max_class_context_tokens = max_class_context_tokens
         self.llm = llm
+        # ``llm_augmented`` is currently unused but accepted for forwards
+        # compatibility with earlier experimentation code where this flag was
+        # present.
+        self.llm_augmented = llm_augmented
 
         self._builder = PromptLayerBuilder(self.version)
         self._validate_config()
