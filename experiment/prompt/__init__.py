@@ -1,3 +1,5 @@
+"""Prompt building utilities and directors used throughout the experiments."""
+
 from ._enums import (
     PromptLayerPrefixes,
     TeacherModelOutputFormats,
@@ -5,7 +7,12 @@ from ._enums import (
     TeacherModelBaseInstructionStyles,
     TeacherModelUpdateInstructionStyles,
     FeedbackGenerationInstructionStyles,
-    StudentConferencingInstructionStyles
+    StudentConferencingInstructionStyles,
 )
 from ._builder import PromptLayerBuilder
-from ._directors import TeacherModelBaseDirector, TeacherModelUpdateDirector, FeedbackGenerationDirector, StudentConferencingDirector
+from ._directors import (
+    TeacherModelBaseDirector,
+    TeacherModelUpdateDirector,
+    FeedbackGenerationDirector,
+    StudentConferencingDirector,
+)
